@@ -39,16 +39,6 @@ docker run -d --name teemii-backend --network home-bridge -v teemii-data:/data d
 docker run -d -p 8080:80 --name teemii-frontend --network home-bridge dokkaner/teemii-frontend:latest
 ```
 
-7. Verificar que ambos contenedores estén corriendo correctamente
+7. Si completados los pasos anteriores correctamente, podrás ingresar a la aplicación yendo a la siguiente dirección: http://localhost:8080
 
-```
-docker ps
-```
-
-https://github.com/KennethSV/Dockers/blob/main/docker%20containers%20creation.png
-
-8. Si completados los pasos anteriores correctamente, podrás ingresar a la aplicación yendo a la siguiente dirección: http://localhost:8080
-
-9. Disfrutar!
-
-https://github.com/KennethSV/Dockers/blob/main/teemii%20running.png
+8. Disfrutar!!!
