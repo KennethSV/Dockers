@@ -45,10 +45,10 @@ docker run -d -p 8080:80 --name teemii-frontend --network home-bridge dokkaner/t
 docker ps
 ```
 
-![docker_ps](https://github.com/KennethSV/Dockers/blob/main/docker%20containers%20creation.png)
+![docker_ps](https://github.com/KennethSV/Dockers/blob/main/Resources-Images/docker%20containers%20creation.png)
 
 8. Si completados los pasos anteriores correctamente, podrás ingresar a la aplicación yendo a la siguiente dirección: http://localhost:8080
 
 9. Disfrutar!
 
-![localhost](https://github.com/KennethSV/Dockers/blob/main/teemii%20running.png)
+![localhost](https://github.com/KennethSV/Dockers/blob/main/Resources-Images/teemii%20running.png)
