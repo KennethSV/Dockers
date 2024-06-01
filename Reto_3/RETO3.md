@@ -39,8 +39,8 @@ networks:
 
 Al correr el "docker compose up -d" deberías de ver algo similar a lo siguiente:
 
-![compose](https://github.com/KennethSV/Dockers/edit/main/Reto_3/compose\ created.jpg)
+![compose](https://github.com/KennethSV/Dockers/blob/main/Reto_3/compose%20created.jpg)
 
 Abrir el explorador e ir al localhost:8080 para comprobar que el servicio esté corriendo:
 
-![pagina](https://github.com/KennethSV/Dockers/edit/main/Reto_3/app_working.jpg)
+![pagina](https://github.com/KennethSV/Dockers/blob/main/Reto_3/app_working.jpg)
