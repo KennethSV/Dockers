@@ -1,3 +1,8 @@
+# Codigo
+
+Este es el codigo a ser utilizado para poder de manera exitosa levantar nuestros contenedores de la imagen: "teemii". A disfrutar de los mangas!!
+
+```yml
 version: '3.8'
 services:
   teemii-frontend:
@@ -28,3 +33,14 @@ volumes:
 networks:
   teemii-network:
     driver: bridge
+```
+
+# Comprobar que el servicio levantó correctamente
+
+Al correr el "docker compose up -d" deberías de ver algo similar a lo siguiente:
+
+![compose](https://github.com/KennethSV/Dockers/edit/main/Reto_3/compose\ created.jpg)
+
+Abrir el explorador e ir al localhost:8080 para comprobar que el servicio esté corriendo:
+
+![pagina](https://github.com/KennethSV/Dockers/edit/main/Reto_3/app_working.jpg)
